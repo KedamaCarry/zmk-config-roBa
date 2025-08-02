@@ -28,19 +28,19 @@ layers:
   - C
   - V
   - B
-  - {t: GAME, h: toggle}
+  - {t: Sft+Gui+V, h: LEFT CONTROL}
   - ;
   - N
   - M
   - ','
   - .
   - {t: /, h: RIGHT SHIFT}
-  - Sft+Ctl+S
+  - {t: GAME, h: toggle}
   - LEFT WIN
   - LEFT ALT
   - {t: '&to_layer_0 GRAVE', h: '6'}
   - {t: SPACE, h: NUM}
-  - {t: '&to_layer_0 LCTRL', h: ARROW}
+  - {t: '&to_layer_0 SPACE', h: ARROW}
   - BACKSPACE
   - {t: ENTER, h: FUNCTION}
   - DEL
