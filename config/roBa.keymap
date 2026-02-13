@@ -170,8 +170,6 @@
 &trans          &trans        &trans  &trans     &trans     &trans         &trans    &trans    &kp M      &trans     &trans     &trans
 &to 0           &kp LEFT_WIN  &trans  &kp LCTRL  &kp SPACE  &kp ENTER      &mkp MB4  &mkp MB5                                   &trans
             >;
-
-            sensor-bindings = <&encoder_msc_down_up>;
         };
 
         layer_6 {
