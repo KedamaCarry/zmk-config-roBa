@@ -28,7 +28,7 @@ layers:
   - C
   - V
   - B
-  - {t: Sft+Gui+V, h: LEFT CONTROL}
+  - {t: Gui+Ctl+V, h: LEFT CONTROL}
   - ;
   - N
   - M
@@ -107,10 +107,10 @@ layers:
   - Ctl+Alt+KP 0
   - {t: ▽, type: trans}
   - ':'
-  - +
-  - Sft+0x89
-  - '['
-  - ''''
+  - ']'
+  - \
+  - '}'
+  - '|'
   - {t: '0', h: LEFT SHIFT}
   - '1'
   - '2'
@@ -148,7 +148,7 @@ layers:
   - DOWN ARROW
   - RIGHT ARROW
   - END
-  - {t: ▽, type: trans}
+  - {t: Alt+Gui+PRINTSCREEN, h: toggle}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -185,7 +185,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&mkp MB4'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -198,6 +198,7 @@ layers:
   - '&mkp MB1'
   - '&mkp MB3'
   - '&mkp MB2'
+  - '&mkp MB5'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -217,8 +218,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '&mkp MB4'
-  - '&mkp MB5'
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   GAME:
   - TAB
