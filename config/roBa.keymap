@@ -134,10 +134,10 @@
 
         NUM {
             bindings = <
-&kp MINUS          &kp N7  &kp N8  &kp N9  &kp PLUS                                           &kp JP_AMPERSAND  &kp JP_QUOTE        &kp JP_EQUAL          &kp JP_CARET       &kp JP_YEN
-&kp SLASH          &kp N4  &kp N5  &kp N6  &kp ASTERISK  &kp LC(LA(KP_NUMBER_0))      &trans  &kp JP_PLUS       &kp JP_LBRACKET     &kp JP_RBRACKET       &kp JP_AT          &kp SEMICOLON
-&mt LEFT_SHIFT N0  &kp N1  &kp N2  &kp N3  &kp PERIOD    &kp EQUAL                    &trans  &none             &kp JP_ASTERISK     &kp JP_BACKQUOTE      &kp JP_LBRACE      &kp JP_RBRACE
-&trans             &trans  &trans  &trans  &trans        &trans                       &trans  &trans                                                                         &trans
+&kp MINUS          &kp N7  &kp N8  &kp N9  &kp PLUS                                           &kp JP_AMPERSAND  &kp JP_QUOTE        &kp JP_EQUAL          &kp JP_LBRACE          &kp JP_RBRACE
+&kp SLASH          &kp N4  &kp N5  &kp N6  &kp ASTERISK  &kp LC(LA(KP_NUMBER_0))      &trans  &kp JP_PLUS       &kp JP_LBRACKET     &kp JP_RBRACKET       &kp JP_AT              &kp SEMICOLON
+&mt LEFT_SHIFT N0  &kp N1  &kp N2  &kp N3  &kp PERIOD    &kp EQUAL                    &trans  &none             &kp JP_ASTERISK     &kp JP_BACKQUOTE      &kp JP_UNDERSCORE      &kp JP_YEN
+&trans             &trans  &trans  &trans  &trans        &trans                       &trans  &trans                                                                             &trans
             >;
         };
 
