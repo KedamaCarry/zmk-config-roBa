@@ -94,6 +94,7 @@
             compatible = "zmk,behavior-hold-tap";
             label = "LAYER_TAP_TO_0";
             bindings = <&mo>, <&to_layer_0>;
+
             #binding-cells = <2>;
             tapping-term-ms = <200>;
         };
@@ -103,6 +104,7 @@
             label = "ENCODER_MSC_DOWN_UP";
             #sensor-binding-cells = <0>;
             bindings = <&msc SCRL_DOWN>, <&msc SCRL_UP>;
+
             tap-ms = <20>;
         };
     };
@@ -132,10 +134,10 @@
 
         NUM {
             bindings = <
-&kp MINUS          &kp N7  &kp N8  &kp N9  &kp PLUS                                           &kp JP_AMPERSAND  &kp JP_QUOTE        &kp JP_EQUAL          &kp JP_CARET       &kp JP_YEN
-&kp SLASH          &kp N4  &kp N5  &kp N6  &kp ASTERISK  &kp LC(LA(KP_NUMBER_0))      &trans  &kp JP_PLUS       &kp JP_LBRACKET     &kp JP_RBRACKET       &kp AT_SIGN        &kp SEMICOLON
-&mt LEFT_SHIFT N0  &kp N1  &kp N2  &kp N3  &kp PERIOD    &kp EQUAL                    &trans  &none             &kp JP_ASTERISK     &kp JP_BACKQUOTE      &kp JP_LBRACE      &kp JP_RBRACE
-&trans             &trans  &trans  &trans  &trans        &trans                       &trans  &trans                                                                         &trans
+&kp MINUS          &kp N7  &kp N8  &kp N9  &kp PLUS                                           &kp JP_AMPERSAND  &kp JP_QUOTE     &kp JP_EQUAL      &kp JP_CARET   &kp JP_YEN
+&kp SLASH          &kp N4  &kp N5  &kp N6  &kp ASTERISK  &kp LC(LA(KP_NUMBER_0))      &trans  &kp JP_PLUS       &kp JP_LBRACKET  &kp JP_RBRACKET   &kp AT         &kp SEMICOLON
+&mt LEFT_SHIFT N0  &kp N1  &kp N2  &kp N3  &kp PERIOD    &kp EQUAL                    &trans  &none             &kp JP_ASTERISK  &kp JP_BACKQUOTE  &kp JP_LBRACE  &kp JP_RBRACE
+&trans             &trans  &trans  &trans  &trans        &trans                       &trans  &trans                                                              &trans
             >;
         };
 
